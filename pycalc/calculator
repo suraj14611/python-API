@@ -1,0 +1,4 @@
+FROM python:3.12
+WORKDIR /pyapp
+COPY calc.py .
+CMD ["python", "calc.py"]
